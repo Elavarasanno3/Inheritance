@@ -1,0 +1,18 @@
+package inheritance11interface5;
+
+public class Box extends Pen implements Inter1{
+    String color = "yellow";
+    int size = 5;
+    String shape = "square";
+
+    public void store(){
+        System.out.println("This is Box store");
+    }
+    public void open(){
+        System.out.println("This is Box open");
+    }
+    public void close(){
+        System.out.println("This is Box close");
+    }
+}
+
